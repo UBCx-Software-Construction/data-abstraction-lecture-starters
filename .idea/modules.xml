@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FerryServiceDebugging/FerryServiceDebugging.iml" filepath="$PROJECT_DIR$/FerryServiceDebugging/FerryServiceDebugging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FerryServiceMaster/FerryServiceMaster.iml" filepath="$PROJECT_DIR$/FerryServiceMaster/FerryServiceMaster.iml" group="Solution" />
+      <module fileurl="file://$PROJECT_DIR$/HairSalon4Solution/HairSalon4Solution.iml" filepath="$PROJECT_DIR$/HairSalon4Solution/HairSalon4Solution.iml" group="Solution" />
+      <module fileurl="file://$PROJECT_DIR$/HairSalon4Starter/HairSalon4Starter.iml" filepath="$PROJECT_DIR$/HairSalon4Starter/HairSalon4Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntegerSet/IntegerSet.iml" filepath="$PROJECT_DIR$/IntegerSet/IntegerSet.iml" group="Solution" />
+      <module fileurl="file://$PROJECT_DIR$/IntegerSetStarter/IntegerSetStarter.iml" filepath="$PROJECT_DIR$/IntegerSetStarter/IntegerSetStarter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntegerSetTestStarter/IntegerSetTestStarter.iml" filepath="$PROJECT_DIR$/IntegerSetTestStarter/IntegerSetTestStarter.iml" />
+    </modules>
+  </component>
+</project>
