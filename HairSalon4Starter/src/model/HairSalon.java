@@ -74,7 +74,7 @@ public class HairSalon {
     public void changeBooking(Customer customer, int newTime) {
         int bookedTime = customer.getBookingTime();
         System.out.print(customer.getName() + "'s time is changing from " + bookedTime);
-        System.out.println(" to "+bookedTime);
+        System.out.println(" to "+ newTime);
         bookings.set(bookedTime, null);
         bookings.set(newTime, customer);
         customer.setBookedTime(newTime);
