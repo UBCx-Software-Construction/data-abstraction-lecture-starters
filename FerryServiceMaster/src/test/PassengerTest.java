@@ -21,5 +21,10 @@ public class PassengerTest {
         assertEquals(testPassenger.getFerryCard().getOwner(), testPassenger);
     }
 
+    @Test
+    public void testPassengerChangeName() {
+        testPassenger.setName("Batman");
+        assertEquals("Batman",testPassenger.getName());
+    }
 
 }

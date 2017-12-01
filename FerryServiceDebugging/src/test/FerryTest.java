@@ -44,7 +44,9 @@ public class FerryTest {
         String newDest = "Juneau";
         testFerry.setDestination(newDest);
         Ferry comparison = new Ferry(newDest,testDate,testPrice);
-        assertEquals(comparison,testFerry);
+        assertEquals(comparison.getDestination(),testFerry.getDestination());
+        assertEquals(comparison.getSailingDate(),testFerry.getSailingDate());
+        assertEquals(comparison.getTicketPrice(),testFerry.getTicketPrice());
     }
 
 

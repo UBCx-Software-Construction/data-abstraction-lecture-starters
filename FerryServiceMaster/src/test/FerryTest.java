@@ -40,5 +40,15 @@ public class FerryTest {
         assertTrue(testFerry.getTicketSet().contains(testTicket));
     }
 
+    @Test
+    public void testChangeItinerary() {
+        String newDest = "Juneau";
+        testFerry.setDestination(newDest);
+        Ferry comparison = new Ferry(newDest,testDate,testPrice);
+        assertEquals(comparison.getDestination(),testFerry.getDestination());
+        assertEquals(comparison.getSailingDate(),testFerry.getSailingDate());
+        assertEquals(comparison.getTicketPrice(),testFerry.getTicketPrice());
+    }
+
 
 }
